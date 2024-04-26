@@ -1,0 +1,16 @@
+.card-pizza-container li,
+.card-details-pizza-container li {
+  list-style-type: none;
+}
+
+.ordered-pizza-details-container img {
+  width: 6em;
+}
+
+.nav-menu-container a {
+  text-decoration: none;
+}
+
+.ordered-pizza-details-container .btn-pagar {
+  width: fit-content;
+}

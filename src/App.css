@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+header {
+  background-image: url('../src/assets/img/pizza_background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 10em;
+  height: 15em;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+div.app-container {
+  min-height: 100vh;
+}
+
+nav {
+  height: 4em;
+}
+
+section.card-details-pizza-container,
+section.carrito-container {
+  min-height: calc(100vh - 4em);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.carrito-container div.ordered-pizza-details-container {
+  width: 100%;
+}
+
+section.card-details-pizza-container div.card {
+  height: fit-content;
+}
